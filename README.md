@@ -46,5 +46,4 @@ PART 2 - Frequency Content Analysis
 4. Execute the "freq_analysis.m" script to produce the TLE and THALASSA spectrum plots
 
 # Credits
-Thanks to Amato et al., 2019 for allowing me to use THALASSA 
-Thanks to Vallado et al., 2006 for making the complete SGP4 model public
+Thanks to: i) Amato et al., 2019 for allowing me to use THALASSA    ii) Vallado et al., 2006 for making the complete SGP4 model public
