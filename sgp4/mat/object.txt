@@ -1,0 +1,3 @@
+# THALASSA - OBJECT PARAMETERS 
+# ============================================================================== 
+# Initial epoch and orbital elements 
