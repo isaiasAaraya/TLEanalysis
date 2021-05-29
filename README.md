@@ -44,3 +44,7 @@ PART 2 - Frequency Content Analysis
 2. Run THALASSA with the correct "object.txt" file in the terminal
 3. Execute the "TLEvsTHALASSA.m" MATLAB script in MATLAB, followed by the "plot_TLEvsTHALASSA.m" to see the error plots
 4. Execute the "freq_analysis.m" script to produce the TLE and THALASSA spectrum plots
+
+# Credits
+Thanks to Amato et al., 2019 for allowing me to use THALASSA 
+Thanks to Vallado et al., 2006 for making the complete SGP4 model public
