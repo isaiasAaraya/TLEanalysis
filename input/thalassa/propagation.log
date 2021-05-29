@@ -1,0 +1,16 @@
+# THALASSA LOG FILE           
+# THALASSA version: v1.2      
+Start logging on 20210529T150638.585 UTC+0100.
+Location of settings file: ./in/input.txt
+Location of initial conditions file: ./in/object.txt
+Initialized the state vector for eqs =  2
+Initialized solver settings, entering the integration loop.
+Propagation terminated with exit code =   0                                                                                     
+Final time reached.                                                                                                             
+CPU time:   40.19     s
+Dumping output to disk.
+Integration tolerance:  0.1000E-12
+ Total function calls:     3257721
+    Integration steps:     1594798
+     Lifetime (years):   5.01026694045180    
+End logging on 20210529T150719.791 UTC+0100.
