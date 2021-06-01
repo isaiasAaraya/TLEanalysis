@@ -85,8 +85,8 @@ fprintf( fileID, '%+.11f%sE+00; AOP  [deg]\n', argp(1)*180/pi, num2str(zeros(5-n
 fprintf( fileID, '%+.11f%sE+00; M    [deg]\n', m(1)*180/pi, num2str(zeros(5-numel(num2str(floor(m(1)*180/pi))),1)));
 fprintf( fileID, '# Physical characteristics \n');
 fprintf( fileID, '+406.9650000000000E+00; Mass [kg] \n');
-fprintf( fileID, '+0.282700000000000E+00; Area (drag) [m^2] \n');
-fprintf( fileID, '+0.282700000000000E+00; Area (SRP)  [m^2] \n');
+fprintf( fileID, '+0.283000000000000E+00; Area (drag) [m^2] \n');
+fprintf( fileID, '+0.283000000000000E+00; Area (SRP)  [m^2] \n');
 fprintf( fileID, '+2.200000000000000E+00; CD   [-] \n');
 fprintf( fileID, '+1.500000000000000E+00; CR   [-] \n');
 
