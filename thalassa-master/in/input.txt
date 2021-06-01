@@ -28,7 +28,7 @@ gord:      14
 # mxstep:    Maximum number of integration/output steps.
 # imcoll:    0 = do not check for collisions with the Moon, 1 = otherwise.
 tol:       1.000000000000000E-13
-tspan:     1830.0000000000000E+00
+tspan:     2100.000000000000E+00
 tstep:     0.025000000000000E+00
 mxstep:    1.0E+06
 imcoll:    0
