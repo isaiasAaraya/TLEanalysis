@@ -13,7 +13,7 @@
 
 function [longstr1, longstr2, epoch_TLE] = read_TLE_v1()
 % Read TLE data from file
-fileID = fopen('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/input/TLE/LAGEOS1_TLE_9621.txt','r');
+fileID = fopen('input/TLE/LAGEOS1_TLE_9621.txt','r');
 
 % tracks TLE lines (=1 if the line is not at the end of TLE, =0 if its the last line)
 tle_checker = 1; 
