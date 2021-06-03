@@ -4,7 +4,7 @@
 function [p, a, ecc, inc, raan, argp, nu, M, epoch_thalassa] = read_thalassa()
 
 % Read THALASSA data
-data = readtable('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/input/thalassa/orbels.dat');
+data = readtable('input/thalassa/orbels.dat');
 data  = table2array(data);
 
 % Assign the MJD and find the epoch in UTC
