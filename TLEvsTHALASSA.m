@@ -161,8 +161,8 @@ for i = 1:len_th
 end
 
 % save TLE and thalassa data
-save('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/output/data_TLE_LAGEOS1.mat','p_TLE','a_TLE','ecc_TLE','inc_TLE','raan_TLE','argp_TLE','nu_TLE','M_TLE','epoch_TLE','reci_TLE','veci_TLE','rrsw_TLE','vrsw_TLE')
-save('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/output/data_thalassa_LAGEOS1.mat','p_th','a_th','ecc_th','inc_th','raan_th','argp_th','nu_th','M_th','epoch_th','t_UTC','reci_th','veci_th','rrsw_th','vrsw_th')
+save('output/data_TLE_LAGEOS1.mat','p_TLE','a_TLE','ecc_TLE','inc_TLE','raan_TLE','argp_TLE','nu_TLE','M_TLE','epoch_TLE','reci_TLE','veci_TLE','rrsw_TLE','vrsw_TLE')
+save('output/data_thalassa_LAGEOS1.mat','p_th','a_th','ecc_th','inc_th','raan_th','argp_th','nu_th','M_th','epoch_th','t_UTC','reci_th','veci_th','rrsw_th','vrsw_th')
 
 %% Error Analysis
 
@@ -212,4 +212,4 @@ for i=1:length(epoch_TLE) - 1
 end
 
 diff_tpub = diff_tpub * 24;
-save('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/output/errs_LAGEOS1.mat','rerr_r','serr_r','werr_r','rerr_v','serr_v','werr_v','a_err','inc_err','ecc_err','nu_err','argp_err','raan_err','M_err','r_err','v_err')
+save('output/errs_LAGEOS1.mat','rerr_r','serr_r','werr_r','rerr_v','serr_v','werr_v','a_err','inc_err','ecc_err','nu_err','argp_err','raan_err','M_err','r_err','v_err')
