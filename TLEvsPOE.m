@@ -246,14 +246,3 @@ v_err(outlier_loc) = [];
 
 % Lageos-1
 save('output/output_error_LAGEOS1.mat','rerr_r','serr_r','werr_r','rerr_v','serr_v','werr_v','a_err','inc_err','ecc_err','nu_err','argp_err','raan_err','M_err','t_UTC','epoch_POE_UTC','r_err','v_err')
-
-%% Analyse TLE Data
-
-% find the time interval between publication
-for i=1:length(epoch_TLE) - 1
-    
-    diff_tpub(i) =  epoch_TLE(i+1) - epoch_TLE(i);
-    
-end
-
-diff_tpub = diff_tpub * 24;
