@@ -14,7 +14,7 @@
 
 function [longstr1, longstr2, epoch_TLE] = read_TLE_v2()
 % Read TLE data from file
-fileID = fopen('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/input/TLE/LAGEOS1_TLE_6y.txt','r');
+fileID = fopen('input/TLE/LAGEOS1_TLE_6y.txt','r');
 
  % tracks TLE lines (=1 if the line is not at the end of TLE, =0 if its the last line)
 tle_checker = 1;
@@ -71,7 +71,7 @@ end
 fclose(fileID);
 
 % save initial TLE data into the object.txt file to be used by thalassa
-fileID = fopen('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/thalassa-master/in/object.txt','w');
+fileID = fopen('thalassa-master/in/object.txt','w');
 fprintf( fileID, '# THALASSA - OBJECT PARAMETERS \n');
 fprintf( fileID, '# ============================================================================== \n');
 fprintf( fileID, '# Initial epoch and orbital elements \n');
