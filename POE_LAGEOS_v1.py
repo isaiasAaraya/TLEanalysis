@@ -5,7 +5,7 @@ import sys
 import math
 import os
 
-file_to_open = "/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/input/POE/LAGEOS1_POE_9621.txt"
+file_to_open = "input/POE/LAGEOS1_POE_9621.txt"
 def POE_READER():
     with open(file_to_open, 'r') as file_poe:
         jd_poe = []
