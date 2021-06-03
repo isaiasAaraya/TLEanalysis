@@ -4,9 +4,9 @@ clc
 close all
 
 % Load LAGEOS-1 data
-load('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/output/data_TLE_LAGEOS1.mat')
-load('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/output/data_thalassa_LAGEOS1.mat')
-load ('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/output/errs_LAGEOS1.mat')
+load('output/data_TLE_LAGEOS1.mat')
+load('output/data_thalassa_LAGEOS1.mat')
+load ('output/errs_LAGEOS1.mat')
 
 
 % % Semi-major axis comparison
