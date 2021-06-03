@@ -5,9 +5,9 @@ clear
 clc
 
 % LAGEOS-1
-load ('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/output/output_error_LAGEOS1.mat')
-load ('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/output/output_TLE_LAGEOS1.mat')
-load ('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/output/output_POE_LAGEOS1.mat')
+load ('output/output_error_LAGEOS1.mat')
+load ('output/output_TLE_LAGEOS1.mat')
+load ('output/output_POE_LAGEOS1.mat')
 
 % % Semi-major axis comparison
 % figure(1)
