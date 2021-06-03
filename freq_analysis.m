@@ -5,9 +5,9 @@ clc
 close all
 
 % Load error data for frequency analysis
-load('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/output/data_TLE_LAGEOS1.mat')
-load('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/output/data_thalassa_LAGEOS1.mat')
-load ('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/output/errs_LAGEOS1.mat')
+load('output/data_TLE_LAGEOS1.mat')
+load('output/data_thalassa_LAGEOS1.mat')
+load ('output/errs_LAGEOS1.mat')
 
 % length of input signal
 len = length(t_UTC);              
