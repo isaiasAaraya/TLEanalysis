@@ -176,8 +176,8 @@ end
 
 % Store the TLE and POE data as workspace
 % Lageos-1
-save('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/output/output_TLE_LAGEOS1.mat','p_TLE','a_TLE','ecc_TLE','inc_TLE','raan_TLE','argp_TLE','nu_TLE','M_TLE','epoch_TLE','reci_TLE','veci_TLE','rrsw_TLE','vrsw_TLE')
-save('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/output/output_POE_LAGEOS1.mat','p_POE','a_POE','ecc_POE','inc_POE','raan_POE','argp_POE','nu_POE','M_POE','reci_POE','veci_POE','rrsw_POE','vrsw_POE')
+save('output/output_TLE_LAGEOS1.mat','p_TLE','a_TLE','ecc_TLE','inc_TLE','raan_TLE','argp_TLE','nu_TLE','M_TLE','epoch_TLE','reci_TLE','veci_TLE','rrsw_TLE','vrsw_TLE')
+save('output/output_POE_LAGEOS1.mat','p_POE','a_POE','ecc_POE','inc_POE','raan_POE','argp_POE','nu_POE','M_POE','reci_POE','veci_POE','rrsw_POE','vrsw_POE')
 
 %% Error Analysis
 
@@ -245,7 +245,7 @@ v_err(outlier_loc) = [];
 % Save the error result as a workspace
 
 % Lageos-1
-save('/Users/isaiasaraya/Desktop/FYP/TLEanalysis-master/output/output_error_LAGEOS1.mat','rerr_r','serr_r','werr_r','rerr_v','serr_v','werr_v','a_err','inc_err','ecc_err','nu_err','argp_err','raan_err','M_err','t_UTC','epoch_POE_UTC','r_err','v_err')
+save('output/output_error_LAGEOS1.mat','rerr_r','serr_r','werr_r','rerr_v','serr_v','werr_v','a_err','inc_err','ecc_err','nu_err','argp_err','raan_err','M_err','t_UTC','epoch_POE_UTC','r_err','v_err')
 
 %% Analyse TLE Data
 
