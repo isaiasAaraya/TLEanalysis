@@ -215,10 +215,10 @@ M_err(find(M_err > pi)) = 2 * pi - M_err(find(M_err > pi));
 
 %% Exclude Outliers
 
-% Outliers tolerance as multiple of mean of along-track position error
+% Outliers tolerance as multiple of mean of position error
 cutoff = 5; 
 
-outlier_loc = find(serr_r > cutoff * mean(serr_r));
+outlier_loc = find(r_err > cutoff * mean(r_err));
 
 % Update data length
 epoch_POE_UTC(outlier_loc) = [];
